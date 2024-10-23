@@ -1,38 +1,13 @@
-a{
-  text-decoration: none;
-  color: #ddd;
-}
-
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     height: 100vh;
     background-color: rgb(50,50,50);
     color: #ddd;
     scroll-behavior: smooth;
-    text-decoration: none;
-  }
-
-#summary ,#news,#About-us{
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  padding-top: 50px;
-  background-color: rgb(45,45,45);
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 100px;
-  padding-left: 35px;
-  padding-right: 35px;
 }
 
-#news{
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 100px;
-}
-
-  header{
+header{
     position: absolute;
     width: 100%;
   }
@@ -116,13 +91,24 @@ body {
     display: block;
   }
 
+  #daily-news, #important-news, #weekly-news{
+   padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(45,45,45);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
+  }
+
   #contact{
-    margin-top: 20px;
+    margin-top: 25vh;
     background-color: rgb(30,30,30);
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
-  
